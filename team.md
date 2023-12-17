@@ -1,5 +1,6 @@
 ---
 layout: default
+show_downloads: false
 ---
 
 ##### Site Navigation
@@ -11,22 +12,22 @@ layout: default
 
 # Our Team
 
-### Jason
+#### Jason
 
 role_placeholder
 
-### Claudine
+#### Claudine
 
 role_placeholder
 
-### Elliot
+#### Elliot
 
 role_placeholder
 
-### Brendan
+#### Brendan
 
 role_placeholder
 
-### Joseph
+#### Joseph
 
 role_placeholder
