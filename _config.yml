@@ -1,6 +1,6 @@
 index: index.md
 title: GesturePlay
-description: Elevate gaming with AI-powered hand gestures. Immerse yourself in a revolutionized gaming experience!
+description: GesturePlay is an open-source machine learning driven gesture recognition software, allowing you to control games with just a camera. Download now to revolutionise your gaming experience!
 show_downloads: true
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
