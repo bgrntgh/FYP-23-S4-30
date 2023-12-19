@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="section" style="background-color: #e4e1dd;">
-                <div class="content" id="section4">
+                <div class="content" id="section4" style="text-align: center;">
                     {{ page.section4_content | markdownify }}
                     {% if site.show_downloads and page.show_donloads != false %}
                         <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download</span></a>
@@ -64,7 +64,6 @@
             </section>
         </div>
     </div>
-
     <script>
         document.getElementById('section1').style.height = '{{ page.section1_content | number_of_lines | times: 20 }}px';
         document.getElementById('section2').style.height = '{{ page.section2_content | number_of_lines | times: 20 }}px';
