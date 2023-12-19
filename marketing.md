@@ -22,8 +22,10 @@ section3_content: |
   video_demo_placeholder
 
 section4_content: |
-  # Download 
+  <div style="text-align: center;">
+  # Try gaming in a new way today
 
-  download_placeholder
+  # Download for Free!
+  </div>
 
 ---
