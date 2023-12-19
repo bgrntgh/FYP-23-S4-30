@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title | default: "Title" }}</title>
+    {% seo %}
+    {% include head-custom.html %}
+</head>
+
+<body>
+    <div id="container">
+        <div class="section" style="background-color: #ffcccb;">
+            <div class="content" id="section1">
+                {{ content }}
+            </div>
+        </div>
+        <div class="section" style="background-color: #a7e9af;">
+            <div class="content" id="section2">
+                {{ content }}
+            </div>
+        </div>
+        <div class="section" style="background-color: #a0c4ff;">
+            <div class="content" id="section3">
+                {{ content }}
+            </div>
+        </div>
+        <div class="section" style="background-color: #ffd700;">
+            <div class="content" id="section4">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set the height of each section based on the number of lines in the corresponding content
+        document.getElementById('section1').style.height = '{{ content | number_of_lines | times: 20 }}px';
+        document.getElementById('section2').style.height = '{{ content | number_of_lines | times: 20 }}px';
+        document.getElementById('section3').style.height = '{{ content | number_of_lines | times: 20 }}px';
+        document.getElementById('section4').style.height = '{{ content | number_of_lines | times: 20 }}px';
+    </script>
+</body>
+</html>
