@@ -55,13 +55,12 @@
                     {{ page.section4_content | markdownify }}
             
                     {% if site.show_downloads and page.show_downloads != false %}
-                        <div style="text-align: center;">
+                        <div style="display: inline-block;">
                             <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download</span></a>
                         </div>
                     {% endif %}
                 </div>
-            </div>            
-            
+            </div>                      
             <section id="main_content">
                 {{ content }}
             </section>
