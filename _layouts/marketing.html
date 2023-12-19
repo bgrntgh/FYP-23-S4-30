@@ -34,25 +34,31 @@
 
 <body>
     <div id="container">
-        <div class="section" style="background-color: #ffcccb;">
-            <div class="content" id="section1">
-                {{ page.section1_content | markdownify }}
+        <div class="inner">
+            <div class="section" style="background-color: #ffffff;">
+                <div class="content" id="section1">
+                    {{ page.section1_content | markdownify }}
+                </div>
             </div>
-        </div>
-        <div class="section" style="background-color: #a7e9af;">
-            <div class="content" id="section2">
-                {{ page.section2_content | markdownify }}
+            <div class="section" style="background-color: #aaaaaa;">
+                <div class="content" id="section2">
+                    {{ page.section2_content | markdownify }}
+                </div>
             </div>
-        </div>
-        <div class="section" style="background-color: #a0c4ff;">
-            <div class="content" id="section3">
-                {{ page.section3_content | markdownify }}
+            <div class="section" style="background-color: #6e6c69d8;">
+                <div class="content" id="section3">
+                    {{ page.section3_content | markdownify }}
+                </div>
             </div>
-        </div>
-        <div class="section" style="background-color: #ffd700;">
-            <div class="content" id="section4">
-                {{ page.section4_content | markdownify }}
+            <div class="section" style="background-color: #e4e1dd;">
+                <div class="content" id="section4">
+                    {{ page.section4_content | markdownify }}
+                </div>
             </div>
+            
+            <section id="main_content">
+                {{ content }}
+            </section>
         </div>
     </div>
 
