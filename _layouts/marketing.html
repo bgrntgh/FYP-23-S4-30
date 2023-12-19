@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: site.title | default: "Title" }}</title>
-    {% seo %}
-    {% include head-custom.html %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <style>
         body {
             margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Adjust to match the default layout */
         }
-    
+
         #container {
             display: flex;
             flex-direction: column;
         }
-    
+
         .section {
             flex-grow: 1;
             box-sizing: border-box;
@@ -23,13 +27,16 @@
             min-height: 100vh;
         }
     </style>
+    <title>{{ page.title | default: site.title | default: "Title" }}</title>
+    {% seo %}
+    {% include head-custom.html %}
 </head>
 
 <body>
     <div id="container">
         <div class="section" style="background-color: #ffcccb;">
             <div class="content" id="section1">
-                {{ content }}
+                {{ page.section1_content | markdownify }}
             </div>
         </div>
         <div class="section" style="background-color: #a7e9af;">
