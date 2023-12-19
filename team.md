@@ -32,3 +32,15 @@ Role: role_placeholder
 #### Joseph
 
 Role: role_placeholder
+
+# Our Team
+
+|   Jason   | Claudine  |  Elliot   |
+| --------- | --------- | --------- |
+| Content A for Cell 1 | Content B for Cell 2 | Content C for Cell 3 |
+| Content A for Cell 1 | Content B for Cell 2 | Content C for Cell 3 |
+
+|  Brendan  |  Joseph   |
+| --------- | --------- |
+| Content D for Cell 4 | Content E for Cell 5 |
+| Content D for Cell 4 | Content E for Cell 5 |
