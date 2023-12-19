@@ -13,31 +13,16 @@ show_downloads: false
 
 # Our Team
 
-#### Jason
+Group: FYP-23-S4-30
 
-Role: role_placeholder
+Supervisor: Sionggo Japit
 
-#### Claudine
-
-Role: role_placeholder
-
-#### Elliot
-
-Role: role_placeholder
-
-#### Brendan
-
-Role: role_placeholder
-
-#### Joseph
-
-Role: role_placeholder
-
-# Our Team
+Assessor: Dr. Loo Poh Kok
 
 |   Jason   | Claudine  |  Elliot   |
 | --------- | --------- | --------- |
-| Content A for Cell 1 | Content B for Cell 2 | Content C for Cell 3 |
+| Role: | Role: | Role: |
+| abc, def | abc, defmfd | abc, defsadadddaa |
 | Content A for Cell 1 | Content B for Cell 2 | Content C for Cell 3 |
 
 |  Brendan  |  Joseph   |
