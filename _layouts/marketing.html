@@ -35,12 +35,12 @@
 <body>
     <div id="container">
         <div class="inner">
-            <div class="section" style="background-color: #ffffff;">
+            <div class="section" style="background-color: #e4e4e4;">
                 <div class="content" id="section1">
                     {{ page.section1_content | markdownify }}
                 </div>
             </div>
-            <div class="section" style="background-color: #e4e4e4;">
+            <div class="section" style="background-color: #ffffff;">
                 <div class="content" id="section2">
                     {{ page.section2_content | markdownify }}
                 </div>
@@ -63,8 +63,7 @@
     </div>
 
     <script>
-        // Set the height of each section based on the number of lines in the corresponding content
-        document.getElementById('section1').style.height = '{{ content | number_of_lines | times: 20 }}px';
+        document.getElementById('section1').style.height = '{{ page.section1_content | number_of_lines | times: 20 }}px';
         document.getElementById('section2').style.height = '{{ page.section2_content | number_of_lines | times: 20 }}px';
         document.getElementById('section3').style.height = '{{ page.section3_content | number_of_lines | times: 20 }}px';
         document.getElementById('section4').style.height = '{{ page.section4_content | number_of_lines | times: 20 }}px';
