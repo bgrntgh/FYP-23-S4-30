@@ -1,33 +1,29 @@
 ---
 layout: marketing
 section1_content: |
-  # Section 1
+  # GesturePlay
 
-  This is content for section 1.
+  logo_placeholder
+
+  description_placeholder
 
 section2_content: |
-  ## Section 2
+  # Our Services
 
-  This is content for section 2.
+  Summary of what our product can do
 
   - Bullet point 1
   - Bullet point 2
   - Bullet point 3
 
 section3_content: |
-  ### Section 3
+  # Promotion video
 
-  This is content for section 3.
-
-  1. Numbered item 1
-  2. Numbered item 2
-  3. Numbered item 3
+  video_demo_placeholder
 
 section4_content: |
-  #### Section 4
+  # Download 
 
-  This is content for section 4.
-
-  *Italic text*
+  download_placeholder
 
 ---
