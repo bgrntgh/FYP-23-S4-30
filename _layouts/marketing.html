@@ -6,6 +6,21 @@
     <title>{{ page.title | default: site.title | default: "Title" }}</title>
     {% seo %}
     {% include head-custom.html %}
+    <style>
+        body {
+            margin: 0;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+        .section {
+            flex-grow: 1;
+            box-sizing: border-box;
+            padding: 20px;
+            overflow: auto;
+        }
+    </style>
 </head>
 
 <body>
