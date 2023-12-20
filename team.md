@@ -14,11 +14,14 @@ show_downloads: false
 # Our Team
 
 Group: FYP-23-S4-30
+
 Supervisor: Sionggo Japit
+
 Assessor: Dr. Loo Poh Kok
 
 <style>
   table {
+    margin: 0 auto;
     border-collapse: collapse;
     width: 100%;
   }
@@ -40,7 +43,7 @@ Assessor: Dr. Loo Poh Kok
 | mjjcheon001@mymail.sim.edu.sg | cjkoh004@mymail.sim.edu.sg | anderson001@mymail.sim.edu.sg |
 | 7433037 | 7433049 | 7432975 |
 
-<!-- l -->
+---
 
 |  **Brendan**  |  **Joseph**   |
 | :--------------: | :--------------: |
