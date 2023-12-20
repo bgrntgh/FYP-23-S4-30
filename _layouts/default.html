@@ -9,6 +9,17 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+      .header-image {
+        width: 100px;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+      .header-text {
+        display: inline-block;
+      }
+    </style>
     <title>{{ page.title | default: site.title | default: "Title" }}</title>
     {% if site.favicon %}
     <link rel="icon" href="{{ site.favicon | relative_url }}">
@@ -20,10 +31,12 @@
   <body>
     <div id="container">
       <div class="inner">
-
         <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          <img src="{{ './assets/images/favicon.png' | relative_url }}" alt="GesturePlayLogo" class="header-image">
+          <div class="header-text">
+            <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          </div>
         </header>
         <section id="downloads" class="clearfix">
           {% if site.show_downloads and page.show_donloads != false %}
