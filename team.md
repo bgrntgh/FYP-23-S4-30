@@ -17,6 +17,19 @@ Group: FYP-23-S4-30
 Supervisor: Sionggo Japit
 Assessor: Dr. Loo Poh Kok
 
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #1d1d1d; 
+    padding: 10px;
+    text-align: left;
+  }
+</style>
+
 |   **Jason**   | **Claudine**  |  **Elliot**   |
 | --------------- | --------------- | --------------- |
 | Frontend Engineer, Researcher | Frontend Engineer, Researcher | Backend & AI Engineer, Researcher |
