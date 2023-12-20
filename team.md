@@ -18,10 +18,6 @@ Supervisor: Sionggo Japit
 Assessor: Dr. Loo Poh Kok
 
 <style>
-  .table-container {
-    margin: auto;
-  }
-
   table {
     border-collapse: collapse;
     width: 100%;
@@ -38,20 +34,16 @@ Assessor: Dr. Loo Poh Kok
   }
 </style>
 
-<div class="table-container">
-    <table>
-        |   **Jason**   | **Claudine**  |  **Elliot**   |
-        | --------------- | --------------- | --------------- |
-        | Frontend Engineer, Researcher | Frontend Engineer, Researcher | Backend & AI Engineer, Researcher |
-        | mjjcheon001@mymail.sim.edu.sg | cjkoh004@mymail.sim.edu.sg | anderson001@mymail.sim.edu.sg |
-        | 7433037 | 7433049 | 7432975 |
-    </table>
+|   **Jason**   | **Claudine**  |  **Elliot**   |
+| --------------- | --------------- | --------------- |
+| Frontend Engineer, Researcher | Frontend Engineer, Researcher | Backend & AI Engineer, Researcher |
+| mjjcheon001@mymail.sim.edu.sg | cjkoh004@mymail.sim.edu.sg | anderson001@mymail.sim.edu.sg |
+| 7433037 | 7433049 | 7432975 |
 
-    <table>
-        |  **Brendan**  |  **Joseph**   |
-        | --------------- | --------------- |
-        | Backend & AI Engineer, Researcher | Frontend & Backend Engineer, Researcher |
-        | wkbgoh001@mymail.sim.edu.sg | Zhjho001@mymail.sim.edu.sg |
-        | 7433098 | 7083336 |
-    </table>
-</div>
+---
+
+|  **Brendan**  |  **Joseph**   |
+| --------------- | --------------- |
+| Backend & AI Engineer, Researcher | Frontend & Backend Engineer, Researcher |
+| wkbgoh001@mymail.sim.edu.sg | Zhjho001@mymail.sim.edu.sg |
+| 7433098 | 7083336 |
