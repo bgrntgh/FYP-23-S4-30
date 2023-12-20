@@ -20,17 +20,13 @@ Supervisor: Sionggo Japit
 Assessor: Dr. Loo Poh Kok
 
 |   **Jason**   | **Claudine**  |  **Elliot**   |
-| :--------- | :--------- | :--------- |
-| Role: | Role: | Role: |
-| Frontend Engineer, Researcher | Frontend Engineer, Researcher | Backend and AI Engineer, Researcher |
-| Contact: mjjcheon001@mymail.sim.edu.sg | Contact: cjkoh004@mymail.sim.edu.sg | Contact: anderson001@mymail.sim.edu.sg |
 | --------- | --------- | --------- |
+| Frontend Engineer, Researcher | Frontend Engineer, Researcher | Backend and AI Engineer, Researcher |
+| mjjcheon001@mymail.sim.edu.sg | cjkoh004@mymail.sim.edu.sg | anderson001@mymail.sim.edu.sg |
 | 7433037 | 7433049 | 7432975 |
 
 |  **Brendan**  |  **Joseph**   |
-| :--------- | :--------- |
-| Role: | Role: |
-| Backend and AI Engineer, Researcher | Frontend and Backend Engineer, Researcher |
-| Contact: wkbgoh001@mymail.sim.edu.sg | Contact: Zhjho001@mymail.sim.edu.sg |
 | --------- | --------- |
+| Backend and AI Engineer, Researcher | Frontend and Backend Engineer, Researcher |
+| wkbgoh001@mymail.sim.edu.sg | Zhjho001@mymail.sim.edu.sg |
 | 7433098 | 7083336 |
