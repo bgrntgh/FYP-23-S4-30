@@ -13,10 +13,12 @@
       .header-table {
         width: 100%;
         border-collapse: collapse;
+        border: none;
       }
     
       .header-table td {
         padding: 10px;
+        border: none;
       }
     
       .header-table .header-image {
@@ -39,7 +41,7 @@
           <table class="header-table">
             <tr>
               <td>
-                <img src="{{ site.favicon | relative_url }}" alt="Image Description" class="header-image">
+                <img src="{{ './assets/images/favicon.png' | relative_url }}" alt="Image Description" class="header-image">
               </td>
               <td>
                 <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
