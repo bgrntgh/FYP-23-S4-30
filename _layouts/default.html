@@ -10,7 +10,10 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>{{ page.title | default: site.title | default: "Title" }}</title>
-{% seo %}
+    {% if site.favicon %}
+    <link rel="icon" href="{{ site.favicon | relative_url }}">
+    {% endif %}
+    {% seo %}
     {% include head-custom.html %}
   </head>
 
