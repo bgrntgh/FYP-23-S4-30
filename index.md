@@ -7,6 +7,7 @@ layout: default
 * [Main Page](./index.html)
 * [Get Started](./install.html)
 * [Team Members](./team.html)
+* [Documents](./documents.html)
 
 * * *
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+show_downloads: false
 ---
 
 ##### Site Navigation
@@ -10,11 +11,3 @@ layout: default
 * [Documents](./documents.html)
 
 * * *
-
-# Installation guide
-
-placeholder text
-
-# How-to
-
-placeholder text
