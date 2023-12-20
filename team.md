@@ -19,23 +19,7 @@ Supervisor: Sionggo Japit
 
 Assessor: Dr. Loo Poh Kok
 
-<style>
-  table {
-    margin: 0 auto;
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  th, td {
-    border: 1px solid #1d1d1d; 
-    padding: 10px;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="./assets/css/teamTable.css">
 
 |   **Jason**   | **Claudine**  |  **Elliot**   |
 | :--------------: | :--------------: | :--------------: |
