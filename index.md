@@ -5,7 +5,6 @@ layout: default
 ##### Site Navigation
 
 * [Main Page](./index.html)
-* [Get Started](./install.html)
 * [Team Members](./team.html)
 * [Documents](./documents.html)
 
@@ -19,7 +18,5 @@ Recent improvements to machine learning algorithms allow computers to reliably r
 
 # FAQ
 
-#### System Requirements
-
-Placeholder text
+Please refer to our user manual located in the documents page for frequently asked questions
 
