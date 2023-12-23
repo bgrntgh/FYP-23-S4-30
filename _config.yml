@@ -7,4 +7,4 @@ show_downloads: true
 plugins:
 - jekyll-remote-theme
 github:
-  zip_url: https://github.com/bgrntgh/FYP-23-S4-30/releases/tag/vX.X.X
+  zip_url: https://drive.google.com/uc?export=download&id=1Irpv95kmE1xdyMRLBM_lBM7yxi2RyQae

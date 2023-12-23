@@ -3,9 +3,7 @@ layout: marketing
 section1_content: |
   # GesturePlay
 
-  ![logo](/assets/images/favicon.png)
-
-  description_placeholder
+  Recognizing the untapped potential of hand gestures, we seek to break down barriers in the traditional gaming experience. By harnessing the power of artificial intelligence, GesturePlay enables players to control and navigate games effortlessly using natural hand movements. The motivation behind its creation is to provide a seamless and immersive gaming environment, offering a novel, futuristic dimension to interactive entertainment. GesturePlay represents a leap forward in blending cutting-edge technology with the joy of gaming, emphasizing a commitment to innovation and user-friendly experiences.
 
 section2_content: |
   # Our Services
@@ -14,7 +12,7 @@ section2_content: |
 
   - Customizable gesture to input mapping
   - Supports most games
-  - Bullet point 3
+  - Intuitive gesture library
 
 section3_content: |
   # Promotional video
